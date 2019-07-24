@@ -1,0 +1,15 @@
+"Z:\home\tuongpm\Documents\arm\bin\armproc.dll" 
+
+"Z:\home\tuongpm\Documents\arm\bin\armjlink2.dll" 
+
+"Z:\home\tuongpm\Documents\WorksSpace\LedBlinking\project\Debug\Exe\LedBlinking.out" 
+
+--plugin="Z:\home\tuongpm\Documents\arm\bin\armbat.dll" 
+
+--device_macro="Z:\home\tuongpm\Documents\arm\config\debugger\NXP\KLxx.dmac" 
+
+--flash_loader="Z:\home\tuongpm\Documents\arm\config\flashloader\NXP\FlashKLxx256K.board" 
+
+
+
+
