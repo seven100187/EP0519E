@@ -1,0 +1,15 @@
+"E:\IAR\arm\bin\armproc.dll" 
+
+"E:\IAR\arm\bin\armjlink2.dll" 
+
+"E:\EB_ITPLUS\LedBlinking\project\Debug\Exe\LedBlinking.out" 
+
+--plugin="E:\IAR\arm\bin\armbat.dll" 
+
+--device_macro="E:\IAR\arm\config\debugger\NXP\KLxx.dmac" 
+
+--flash_loader="E:\IAR\arm\config\flashloader\NXP\FlashKLxx256K.board" 
+
+
+
+

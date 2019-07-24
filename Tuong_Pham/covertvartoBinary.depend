@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1563354002 source:/home/tuongpm/Documents/codeblock/souce/covertvartoBinary/main.c
+	<stdio.h>
+	<stdlib.h>
+
