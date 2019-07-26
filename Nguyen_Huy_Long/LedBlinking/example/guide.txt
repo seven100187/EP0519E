@@ -1,0 +1,4 @@
+1.CMSIS
+2.MKL46Z(file do NSX cung cap ,startup code)
+3.project(chua cac file .out ,Debug,Ex)
+4.source(file .c viet module)
