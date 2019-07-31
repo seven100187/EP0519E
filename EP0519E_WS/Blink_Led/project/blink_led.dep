@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>3104569932</fileChecksum>
+    <configuration>
+        <name>Debug</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\source\blink_led.c</file>
+            <file>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</file>
+            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</file>
+            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\Include\core_cmFunc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\Include\core_cm0plus.h</file>
+            <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4_features.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\Include\core_cmInstr.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\MKL46Z\fsl_device_registers.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\blink_led.pbd</file>
+            <file>$PROJ_DIR$\Debug\Exe\blink_led.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_MKL46Z4.o</file>
+            <file>$PROJ_DIR$\Debug\List\blink_led.map</file>
+            <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
+            <file>$TOOLKIT_DIR$\config\linker\NXP\MKL46Z256xxx4.icf</file>
+            <file>$PROJ_DIR$\Debug\Obj\blink_led.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\blink_led.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\blink_led.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 19 23</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\source\blink_led.c</name>
+            <outputs>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 26</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 9 6 12 11 15 13 16 14 10 8 5 4 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 15 10 13 6 5 12 4 11 16 14 8 9 3</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 22</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 20</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 21</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 12 11 15 13 16 14 17 9 6 10 8 5 4 3 7</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3 15 16 9 8 17 11 14 12 4 5 13 7 6 10</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\blink_led.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 25 31 22 20 32 29 24 28</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>Release</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\source\blink_led.c</file>
+            <file>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</file>
+            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\..\MKL46Z\fsl_device_registers.h</file>
+            <file>$PROJ_DIR$\Release\Obj\blink_led.o</file>
+            <file>$PROJ_DIR$\Release\Obj\system_MKL46Z4.o</file>
+            <file>$PROJ_DIR$\Release\Obj\startup_MKL46Z4.o</file>
+            <file>$PROJ_DIR$\Release\Obj\blink_led.pbi</file>
+            <file>$PROJ_DIR$\Release\Obj\system_MKL46Z4.pbi</file>
+            <file>$PROJ_DIR$\Release\Exe\blink_led.out</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 15</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\source\blink_led.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 10</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 11</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 3 5 7 4 8 6 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
+    </configuration>
+</project>
