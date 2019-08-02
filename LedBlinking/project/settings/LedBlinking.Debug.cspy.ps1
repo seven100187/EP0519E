@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "Z:\home\tuongpm\Documents\common\bin\cspybat" -f "Z:\home\tuongpm\Documents\WorksSpace\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" --backend -f "Z:\home\tuongpm\Documents\WorksSpace\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
+& "Z:\home\tuongpm\Documents\IAR\common\bin\cspybat" -f "Z:\home\tuongpm\Documents\Git\EP0519E\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" --backend -f "Z:\home\tuongpm\Documents\Git\EP0519E\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
 }
 else
 {
-& "Z:\home\tuongpm\Documents\common\bin\cspybat" -f "Z:\home\tuongpm\Documents\WorksSpace\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" --debug_file=$debugfile --backend -f "Z:\home\tuongpm\Documents\WorksSpace\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
+& "Z:\home\tuongpm\Documents\IAR\common\bin\cspybat" -f "Z:\home\tuongpm\Documents\Git\EP0519E\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" --debug_file=$debugfile --backend -f "Z:\home\tuongpm\Documents\Git\EP0519E\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
 }

@@ -1,0 +1,15 @@
+"Z:\home\tuongpm\Documents\IAR\arm\bin\armproc.dll" 
+
+"Z:\home\tuongpm\Documents\IAR\arm\bin\armjlink2.dll" 
+
+"Z:\home\tuongpm\Documents\IAR\JAR_DEV\KL46Z_Code\Blink_Led\project\Debug\Exe\blink_led.out" 
+
+--plugin="Z:\home\tuongpm\Documents\IAR\arm\bin\armbat.dll" 
+
+--device_macro="Z:\home\tuongpm\Documents\IAR\arm\config\debugger\NXP\KLxx.dmac" 
+
+--flash_loader="Z:\home\tuongpm\Documents\IAR\arm\config\flashloader\NXP\FlashKLxx256K.board" 
+
+
+
+

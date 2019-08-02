@@ -1,24 +1,24 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.30.2.160/W32 for ARM                  31/Jul/2019  19:39:38
+# IAR ELF Linker V8.30.2.160/W32 for ARM                  02/Aug/2019  11:13:26
 # Copyright 2007-2018 IAR Systems AB.
 #
 #    Output file  =  
-#        D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\Debug\Exe\blink_led.out
+#        Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\Debug\Exe\blink_led.out
 #    Map file     =  
-#        D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\Debug\List\blink_led.map
+#        Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\Debug\List\blink_led.map
 #    Command line =  
-#        -f C:\Users\BAOHUN~1\AppData\Local\Temp\EW8352.tmp
-#        (D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\Debug\Obj\blink_led.o
-#        D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\Debug\Obj\startup_MKL46Z4.o
-#        D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\Debug\Obj\system_MKL46Z4.o
+#        -f C:\users\tuongpm\Temp\EW6022.tmp
+#        (Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\Debug\Obj\blink_led.o
+#        Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\Debug\Obj\startup_MKL46Z4.o
+#        Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\Debug\Obj\system_MKL46Z4.o
 #        --no_out_extension -o
-#        D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\Debug\Exe\blink_led.out
+#        Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\Debug\Exe\blink_led.out
 #        --map
-#        D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\Debug\List\blink_led.map
-#        --config "C:\Program Files (x86)\IAR Systems\Embedded Workbench
-#        8.1\arm\config\linker\NXP\MKL46Z256xxx4.icf" --semihosting --entry
-#        __iar_program_start --vfe --text_out locale)
+#        Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\Debug\List\blink_led.map
+#        --config
+#        Z:\home\tuongpm\Documents\IAR\arm\config\linker\NXP\MKL46Z256xxx4.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
 
@@ -128,7 +128,7 @@ command line/config:
     -----------------------------------
     Total:
 
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\Debug\Obj: [1]
+Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\Debug\Obj: [1]
     blink_led.o            132
     startup_MKL46Z4.o      358
     system_MKL46Z4.o        12
@@ -188,7 +188,7 @@ initLed                      0xc1  0x40  Code  Gb  blink_led.o [1]
 main                        0x111  0x18  Code  Gb  blink_led.o [1]
 
 
-[1] = D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\Debug\Obj
+[1] = Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\Debug\Obj
 [2] = dl6M_tln.a
 [3] = rt6M_tl.a
 [4] = shb_l.a

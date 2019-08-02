@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"Z:\home\tuongpm\Documents\common\bin\cspybat" -f "Z:\home\tuongpm\Documents\WorksSpace\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" --backend -f "Z:\home\tuongpm\Documents\WorksSpace\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
+"Z:\home\tuongpm\Documents\IAR\common\bin\cspybat" -f "Z:\home\tuongpm\Documents\Git\EP0519E\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" --backend -f "Z:\home\tuongpm\Documents\Git\EP0519E\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"Z:\home\tuongpm\Documents\common\bin\cspybat" -f "Z:\home\tuongpm\Documents\WorksSpace\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" "--debug_file=%~1" --backend -f "Z:\home\tuongpm\Documents\WorksSpace\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
+"Z:\home\tuongpm\Documents\IAR\common\bin\cspybat" -f "Z:\home\tuongpm\Documents\Git\EP0519E\LedBlinking\project\settings\LedBlinking.Debug.general.xcl" "--debug_file=%~1" --backend -f "Z:\home\tuongpm\Documents\Git\EP0519E\LedBlinking\project\settings\LedBlinking.Debug.driver.xcl" 
 
 @echo off 
 :end

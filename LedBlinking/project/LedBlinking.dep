@@ -6,26 +6,22 @@
         <name>Debug</name>
         <outputs>
             <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4_features.h</file>
-            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.h</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_MKL46Z4.o</file>
-            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_MKL46Z4.o</file>
             <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
             <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\..\CMSIS\Include\core_cm0plus.h</file>
-            <file>$PROJ_DIR$\..\souce\main.c</file>
             <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
             <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\Include\core_cm0plus.h</file>
             <file>$PROJ_DIR$\..\CMSIS\Include\core_cmInstr.h</file>
             <file>$PROJ_DIR$\..\CMSIS\Include\core_cmFunc.h</file>
             <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.pbi</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.pbi</file>
             <file>$PROJ_DIR$\..\MKL46Z\fsl_device_registers.h</file>
             <file>$PROJ_DIR$\Debug\Exe\LedBlinking.out</file>
-            <file>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</file>
             <file>$PROJ_DIR$\Debug\Obj\LedBlinking.pbd</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
@@ -35,86 +31,90 @@
             <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.__cstat.et</file>
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
-            <file>$PROJ_DIR$\..\..\LedBlingkinga\code\LedBlinking.c</file>
             <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
             <file>$TOOLKIT_DIR$\lib\m6M_tl.a</file>
             <file>$TOOLKIT_DIR$\config\linker\NXP\MKL46Z256xxx4.icf</file>
+            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</file>
+            <file>$PROJ_DIR$\..\souce\main.c</file>
+            <file>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</file>
+            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.h</file>
+            <file>$PROJ_DIR$\..\..\EP0519E_WS\Blink_Led\MKL46Z\MKL46Z4.h</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 26</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 16</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 27</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 22 2 17 8 23 24 18 12 9 13 6 7 14 1 0</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 17 14 9 22 8 0 18 2 23 24 12 1 13 6 7</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 19 25</file>
+                    <file> 16 21</file>
                 </tool>
             </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\souce\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 5</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 11</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 15</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 12 9 22 2 17 8 23 24 13 6 7 14 1</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 2 1 13 24 17 22 9 23 6 7 12 14 8</file>
-                </tool>
-            </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\LedBlinking.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 25</file>
+                    <file> 21</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 33 5 3 26 28 31 32 29</file>
+                    <file> 28 2 3 22 24 26 27 25</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 23</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 18 1 13 6 19 20 15 8 9 10 4 5 11 32 0</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 13 11 9 18 6 0 15 1 19 20 8 32 10 4 5</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\souce\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 2</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 7</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 8 9 18 1 13 6 19 20 10 4 5 11 32</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 1 32 10 20 13 18 9 19 4 5 8 11 6</file>
                 </tool>
             </inputs>
         </file>

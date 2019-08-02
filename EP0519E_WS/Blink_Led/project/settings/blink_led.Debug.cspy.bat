@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\settings\blink_led.Debug.general.xcl" --backend -f "D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\settings\blink_led.Debug.driver.xcl" 
+"Z:\home\tuongpm\Documents\IAR\common\bin\cspybat" -f "Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\settings\blink_led.Debug.general.xcl" --backend -f "Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\settings\blink_led.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\settings\blink_led.Debug.general.xcl" "--debug_file=%~1" --backend -f "D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\settings\blink_led.Debug.driver.xcl" 
+"Z:\home\tuongpm\Documents\IAR\common\bin\cspybat" -f "Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\settings\blink_led.Debug.general.xcl" "--debug_file=%~1" --backend -f "Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\settings\blink_led.Debug.driver.xcl" 
 
 @echo off 
 :end

@@ -1,25 +1,25 @@
-"D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\source\blink_led.c"
+"Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\source\blink_led.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\source
+Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\source
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\..\CMSIS\Include
+Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\..\CMSIS\Include
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\..\MKL46Z
+Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\..\MKL46Z
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\..\source
+Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\..\source
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\inc
+Z:\home\tuongpm\Documents\IAR\arm\inc
 -I
-C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\inc\c
+Z:\home\tuongpm\Documents\IAR\arm\inc\c
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\CMSIS\Include
+Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\CMSIS\Include
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\MKL46Z
+Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\MKL46Z
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\source
+Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\source
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -271,8 +271,8 @@ D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\source
 -D__EDG_FLOAT80_ENABLING_POSSIBLE=0
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -DCPU_MKL46Z256VLL4=1
--D_DLIB_CONFIG_FILE_HEADER_NAME="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Normal.h"
--D_DLIB_CONFIG_FILE_STRING="C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.1\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_HEADER_NAME="Z:\\home\\tuongpm\\Documents\\IAR\\arm\\inc\\c\\DLib_Config_Normal.h"
+-D_DLIB_CONFIG_FILE_STRING="Z:\\home\\tuongpm\\Documents\\IAR\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V8.30.2.160/W32 for ARM"
 -D__ICCARM_OLD_DEFINED_VAARGS__=1
 -D__VA_STACK_ALIGN__=8

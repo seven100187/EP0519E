@@ -1,14 +1,14 @@
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armproc.dll" 
+"Z:\home\tuongpm\Documents\IAR\arm\bin\armproc.dll" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armjlink2.dll" 
+"Z:\home\tuongpm\Documents\IAR\arm\bin\armjlink2.dll" 
 
-"D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\Debug\Exe\blink_led.out" 
+"Z:\home\tuongpm\Documents\Git\EP0519E\EP0519E_WS\Blink_Led\project\Debug\Exe\blink_led.out" 
 
---plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armbat.dll" 
+--plugin="Z:\home\tuongpm\Documents\IAR\arm\bin\armbat.dll" 
 
---device_macro="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\config\debugger\NXP\KLxx.dmac" 
+--device_macro="Z:\home\tuongpm\Documents\IAR\arm\config\debugger\NXP\KLxx.dmac" 
 
---flash_loader="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\config\flashloader\NXP\FlashKLxx256K.board" 
+--flash_loader="Z:\home\tuongpm\Documents\IAR\arm\config\flashloader\NXP\FlashKLxx256K.board" 
 
 
 

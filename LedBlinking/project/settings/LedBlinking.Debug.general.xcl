@@ -1,14 +1,14 @@
-"Z:\home\tuongpm\Documents\arm\bin\armproc.dll" 
+"Z:\home\tuongpm\Documents\IAR\arm\bin\armproc.dll" 
 
-"Z:\home\tuongpm\Documents\arm\bin\armjlink2.dll" 
+"Z:\home\tuongpm\Documents\IAR\arm\bin\armjlink2.dll" 
 
-"Z:\home\tuongpm\Documents\WorksSpace\LedBlinking\project\Debug\Exe\LedBlinking.out" 
+"Z:\home\tuongpm\Documents\Git\EP0519E\LedBlinking\project\Debug\Exe\LedBlinking.out" 
 
---plugin="Z:\home\tuongpm\Documents\arm\bin\armbat.dll" 
+--plugin="Z:\home\tuongpm\Documents\IAR\arm\bin\armbat.dll" 
 
---device_macro="Z:\home\tuongpm\Documents\arm\config\debugger\NXP\KLxx.dmac" 
+--device_macro="Z:\home\tuongpm\Documents\IAR\arm\config\debugger\NXP\KLxx.dmac" 
 
---flash_loader="Z:\home\tuongpm\Documents\arm\config\flashloader\NXP\FlashKLxx256K.board" 
+--flash_loader="Z:\home\tuongpm\Documents\IAR\arm\config\flashloader\NXP\FlashKLxx256K.board" 
 
 
 

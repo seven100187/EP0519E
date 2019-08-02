@@ -16,7 +16,8 @@ void initLed()
   
   *GPIOE_PDDR |= (uint32_t)RED_LED_PIN;
   *GPIOE_PSOR |= (uint32_t)RED_LED_PIN;
-  
+  *GPIOE_PDDR |= (uint32_t)RED_LED_PIN;
+  *GPIOE_PSOR |= (uint32_t)RED_LED_PIN;  
 }
 
 
