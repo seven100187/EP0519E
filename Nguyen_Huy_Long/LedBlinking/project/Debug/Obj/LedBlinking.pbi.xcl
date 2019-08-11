@@ -5,11 +5,11 @@
 -I
 E:\EB_ITPLUS\LedBlinking\source
 -I
-E:\EB_ITPLUS\LedBlinking\source
+E:\EB_ITPLUS\LedBlinking\project\..\source
 -I
-E:\EB_ITPLUS\LedBlinking\MKL46Z
+E:\EB_ITPLUS\LedBlinking\project\..\MKL46Z
 -I
-E:\EB_ITPLUS\LedBlinking\CMSIS\Include
+E:\EB_ITPLUS\LedBlinking\project\..\CMSIS\Include
 -I
 E:\IAR\arm\inc
 -I
