@@ -116,7 +116,7 @@ void SystemInit (void) {
   /* Watchdog disable */
 #if (DISABLE_WDOG)
   /* SIM_COPC: COPT=0,COPCLKS=0,COPW=0 */
-  SIM_COPC = (uint32_t)0x00u;
+  //SIM_COPC = (uint32_t)0x00u;
 #endif /* (DISABLE_WDOG) */
 
 }

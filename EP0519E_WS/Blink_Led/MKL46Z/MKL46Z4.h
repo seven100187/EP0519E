@@ -197,75 +197,50 @@ typedef enum IRQn {
  * @{
  */
 
-/* Define SIM register*/
+/* Define address for SIM module*/
 #define SIM_SCGC5_BASE (0x40048038)
 #define SIM_SCGC5 *(uint32_t *)SIM_SCGC5_BASE
-#define SIM_SCGC5_PORTE_SHITF (13)
+
+#define SIM_SCGC5_PORTA_SHIFT (9)
+#define SIM_SCGC5_PORTA_MASK (0x200)
+#define SIM_SCGC5_PORTB_SHIFT (10)
+#define SIM_SCGC5_PORTB_MASK (0x400)
+#define SIM_SCGC5_PORTC_SHIFT (11)
+#define SIM_SCGC5_PORTC_MASK (0x800)
+#define SIM_SCGC5_PORTD_SHIFT (12)
+#define SIM_SCGC5_PORTD_MASK (0x1000)
+#define SIM_SCGC5_PORTE_SHIFT (13)
 #define SIM_SCGC5_PORTE_MASK (0x2000)
 
-#define SIM_SCGC5_PORTC_SHITF (11)
-#define SIM_SCGC5_PORTC_MASK (0x800)
 
-#define SIM_COPC_BASE (0x40048100)
-#define SIM_COPC *(uint32_t *)SIM_COPC_BASE
+/* Define PORT control register*/
+#define PCR_PS_SHIFT (0)
+#define PCR_PS_MASK (0x1)
+#define PCR_PE_SHIFT (1)
+#define PCR_PE_MASK (0x2)
+#define PCR_SRE_SHIFT (2)
+#define PCR_SRE_MASK (0x4)
+#define PCR_PFE_SHIFT (3)
+#define PCR_PFE_MASK (0x8)
+#define PCR_MUX_SHIFT (8)
+#define PCR_MUX_MASK (0x700)
+#define PCR_MUX_SET(x) (uint32_t)((x << PCR_MUX_SHIFT) & PCR_MUX_MASK)
 
-/* Define PCR register */
+#define PORTD_PCR5_BASE (0x4004C014)
+#define PORTD_PCR5 *(uint32_t *)PORTD_PCR5_BASE
 
-#define PORT_PCR_MUX_SHIFT (8)
-#define PORT_PCR_MUX_MASK (0x700)
-#define PORT_PCR_MUX(x) (uint32_t)((x << PORT_PCR_MUX_SHIFT)&(PORT_PCR_MUX_MASK))
-
-#define PORT_PCR_PE_SHIFT (1)
-#define PORT_PCR_PE_MASK (0x2)
-#define PORT_PCR_PS_SHIFT (0)
-#define PORT_PCR_PS_MASK (0x1)
-
-/* Define PORTE register*/
-#define PORTE_PCR_29_BASE (0x4004D074)
-#define PORTE_PCR_29 *(uint32_t *)PORTE_PCR_29_BASE
-
-/* Define PORTC register*/
-#define PORTC_PCR_3_BASE (0x4004B00C)
-#define PORTC_PCR_3 *(uint32_t *)PORTC_PCR_3_BASE
-
-/* Define alternative*/
-#define ATL0 0
-#define ATL1 1
-#define ATL2 2
-#define ATL3 3
-#define ATL4 4
-#define ATL5 5
-#define ATL6 6
-#define ATL7 7
-
-
-/* Define GPIOE register*/
-#define GPIOE_PDOR_BASE (0x400FF100)
-#define GPIOE_PDOR *(uint32_t *)GPIOE_PDOR_BASE
-#define GPIOE_PSOR_BASE (0x400FF104)
-#define GPIOE_PSOR *(uint32_t *)GPIOE_PSOR_BASE
-#define GPIOE_PCOR_BASE (0x400FF108)
-#define GPIOE_PCOR *(uint32_t *)GPIOE_PCOR_BASE
-#define GPIOE_PTOR_BASE (0x400FF10C)
-#define GPIOE_PTOR *(uint32_t *)GPIOE_PTOR_BASE
-#define GPIOE_PDIR_BASE (0x400FF110)
-#define GPIOE_PDIR *(uint32_t *)GPIOE_PDIR_BASE
-#define GPIOE_PDDR_BASE (0x400FF114)
-#define GPIOE_PDDR *(uint32_t *)GPIOE_PDDR_BASE
-
-/* Define GPIOE register*/
-#define GPIOC_PDOR_BASE (0x400FF080)
-#define GPIOC_PDOR *(uint32_t *)GPIOC_PDOR_BASE
-#define GPIOC_PSOR_BASE (0x400FF084)
-#define GPIOC_PSOR *(uint32_t *)GPIOC_PSOR_BASE
-#define GPIOC_PCOR_BASE (0x400FF088)
-#define GPIOC_PCOR *(uint32_t *)GPIOC_PCOR_BASE
-#define GPIOC_PTOR_BASE (0x400FF08C)
-#define GPIOC_PTOR *(uint32_t *)GPIOC_PTOR_BASE
-#define GPIOC_PDIR_BASE (0x400FF090)
-#define GPIOC_PDIR *(uint32_t *)GPIOC_PDIR_BASE
-#define GPIOC_PDDR_BASE (0x400FF094)
-#define GPIOC_PDDR *(uint32_t *)GPIOC_PDDR_BASE
-
+/* Define GPIO register*/
+#define GPIOD_PDOR_BASE (0x400FF0C0)
+#define GPIOD_PDOR *(uint32_t *)GPIOD_PDOR_BASE
+#define GPIOD_PSOR_BASE (0x400FF0C4)
+#define GPIOD_PSOR *(uint32_t *)GPIOD_PSOR_BASE
+#define GPIOD_PCOR_BASE (0x400FF0C8)
+#define GPIOD_PCOR *(uint32_t *)GPIOD_PCOR_BASE
+#define GPIOD_PTOR_BASE (0x400FF0CC)
+#define GPIOD_PTOR *(uint32_t *)GPIOD_PTOR_BASE
+#define GPIOD_PDIR_BASE (0x400FF0D0)
+#define GPIOD_PDIR *(uint32_t *)GPIOD_PDIR_BASE
+#define GPIOD_PDDR_BASE (0x400FF0D4)
+#define GPIOD_PDDR *(uint32_t *)GPIOD_PDDR_BASE
 #endif  /* _MKL46Z4_H_ */
 

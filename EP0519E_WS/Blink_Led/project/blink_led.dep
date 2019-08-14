@@ -9,16 +9,20 @@
             <file>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</file>
             <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</file>
             <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.h</file>
-            <file>$PROJ_DIR$\..\CMSIS\Include\core_cmFunc.h</file>
             <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$PROJ_DIR$\..\CMSIS\Include\core_cm0plus.h</file>
-            <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4_features.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\Include\core_cmFunc.h</file>
             <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4_features.h</file>
             <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4.h</file>
             <file>$PROJ_DIR$\..\CMSIS\Include\core_cmInstr.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\blink_led.pbi</file>
+            <file>$PROJ_DIR$\Debug\Obj\blink_led.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
@@ -34,17 +38,13 @@
             <file>$PROJ_DIR$\Debug\Obj\blink_led.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.__cstat.et</file>
             <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
-            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\blink_led.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\blink_led.o</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 19 23</file>
+                    <file> 23 27</file>
                 </tool>
             </outputs>
         </file>
@@ -52,22 +52,26 @@
             <name>$PROJ_DIR$\..\source\blink_led.c</name>
             <outputs>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 26</file>
+                    <name>ICCARM</name>
+                    <file> 16</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
+                    <file> 15</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
                     <file> 30</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 9 6 12 11 15 13 16 14 10 8 5 4 3</file>
+                    <file> 10 6 12 5 19 13 20 18 11 8 4 7 3</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15 10 13 6 5 12 4 11 16 14 8 9 3</file>
+                    <file> 19 11 13 6 4 12 7 5 20 18 8 10 3</file>
                 </tool>
             </inputs>
         </file>
@@ -76,7 +80,7 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 22</file>
+                    <file> 26</file>
                 </tool>
             </outputs>
         </file>
@@ -85,25 +89,25 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 20</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 27</file>
+                    <file> 24</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 21</file>
+                    <file> 25</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 31</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 12 11 15 13 16 14 17 9 6 10 8 5 4 3 7</file>
+                    <file> 12 5 19 13 20 18 21 10 6 11 8 4 7 3 9</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 3 15 16 9 8 17 11 14 12 4 5 13 7 6 10</file>
+                    <file> 18 19 8 21 5 20 10 3 12 7 4 13 9 6 11</file>
                 </tool>
             </inputs>
         </file>
@@ -112,13 +116,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 23</file>
+                    <file> 27</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 25 31 22 20 32 29 24 28</file>
+                    <file> 29 16 26 24 17 14 28 32</file>
                 </tool>
             </inputs>
         </file>

@@ -1,25 +1,25 @@
-"D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\MKL46Z\system_MKL46Z4.c"
+"D:\DATA\data_vbox\workspace\ep\EP0519E\EP0519E_WS\Blink_Led\MKL46Z\system_MKL46Z4.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\MKL46Z
+D:\DATA\data_vbox\workspace\ep\EP0519E\EP0519E_WS\Blink_Led\MKL46Z
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\..\CMSIS\Include
+D:\DATA\data_vbox\workspace\ep\EP0519E\EP0519E_WS\Blink_Led\project\..\CMSIS\Include
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\..\MKL46Z
+D:\DATA\data_vbox\workspace\ep\EP0519E\EP0519E_WS\Blink_Led\project\..\MKL46Z
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\project\..\source
+D:\DATA\data_vbox\workspace\ep\EP0519E\EP0519E_WS\Blink_Led\project\..\source
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\inc\c
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\CMSIS\Include
+D:\DATA\data_vbox\workspace\ep\EP0519E\EP0519E_WS\Blink_Led\CMSIS\Include
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\MKL46Z
+D:\DATA\data_vbox\workspace\ep\EP0519E\EP0519E_WS\Blink_Led\MKL46Z
 -I
-D:\DATA\Embedded\IT+\EP0519E_WS\Blink_Led\source
+D:\DATA\data_vbox\workspace\ep\EP0519E\EP0519E_WS\Blink_Led\source
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
