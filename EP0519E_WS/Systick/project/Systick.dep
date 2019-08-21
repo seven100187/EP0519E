@@ -5,16 +5,17 @@
     <configuration>
         <name>Debug</name>
         <outputs>
+            <file>$PROJ_DIR$\..\source\systick_timer.c</file>
+            <file>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</file>
+            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</file>
+            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
             <file>$PROJ_DIR$\Debug\Obj\systick_timer.o</file>
-            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.h</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
             <file>$PROJ_DIR$\Debug\Obj\startup_MKL46Z4.o</file>
             <file>$PROJ_DIR$\Debug\Obj\systick_timer.pbi</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</file>
             <file>$PROJ_DIR$\Debug\Obj\Systick.pbd</file>
-            <file>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</file>
             <file>$PROJ_DIR$\Debug\Exe\Systick.out</file>
             <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.o</file>
             <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.pbi</file>
@@ -29,7 +30,6 @@
             <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4.h</file>
             <file>$PROJ_DIR$\..\CMSIS\Include\core_cm0plus.h</file>
             <file>$PROJ_DIR$\..\CMSIS\Include\core_cmFunc.h</file>
-            <file>$PROJ_DIR$\..\source\systick_timer.c</file>
             <file>$PROJ_DIR$\Debug\Obj\systick_timer.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.__cstat.et</file>
             <file>$TOOLKIT_DIR$\config\linker\NXP\MKL46Z256xxx4.icf</file>
@@ -40,15 +40,60 @@
             <file>$PROJ_DIR$\Debug\List\Systick.map</file>
         </outputs>
         <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 32 11</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\source\systick_timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 8</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22 23 17 6 9 4 15 14 19 18 21 24 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 6 23 19 14 9 17 3 15 18 21 22 24 4</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 7</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
             <name>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 11</file>
+                    <file> 12</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 12</file>
+                    <file> 13</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
@@ -58,22 +103,13 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 16 3 6 0 14 13 15 21 22 18 17 20 23 2 19</file>
+                    <file> 17 6 9 4 15 14 16 22 23 19 18 21 24 3 20</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 6 23 22 16 0 19 15 3 14 13 21 2 18 17 20</file>
+                    <file> 9 24 23 17 4 20 16 6 15 14 22 3 19 18 21</file>
                 </tool>
             </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</name>
-            <outputs>
-                <tool>
-                    <name>AARM</name>
-                    <file> 4</file>
-                </tool>
-            </outputs>
         </file>
         <file>
             <name>$PROJ_DIR$\Debug\Exe\Systick.out</name>
@@ -86,45 +122,9 @@
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 27 4 11 1 28 29 30 31</file>
+                    <file> 27 7 12 5 28 29 30 31</file>
                 </tool>
             </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\..\source\systick_timer.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 1</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 5</file>
-                </tool>
-                <tool>
-                    <name>__cstat</name>
-                    <file> 25</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 21 22 16 3 6 0 14 13 18 17 20 23 2</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 3 22 18 13 6 16 2 14 17 20 21 23 0</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 10 32</file>
-                </tool>
-            </outputs>
         </file>
     </configuration>
     <configuration>
