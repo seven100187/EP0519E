@@ -9,25 +9,18 @@
             <file>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</file>
             <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</file>
             <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\..\CMSIS\Include\core_cm0plus.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\Include\core_cmInstr.h</file>
             <file>$PROJ_DIR$\..\CMSIS\Include\core_cmFunc.h</file>
             <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\Include\core_cm0plus.h</file>
             <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4_features.h</file>
             <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4.h</file>
-            <file>$PROJ_DIR$\..\CMSIS\Include\core_cmInstr.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
-            <file>$PROJ_DIR$\Debug\Obj\blink_led.pbi</file>
-            <file>$PROJ_DIR$\Debug\Obj\blink_led.o</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
             <file>$PROJ_DIR$\..\MKL46Z\fsl_device_registers.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\blink_led.pbd</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$PROJ_DIR$\Debug\Exe\blink_led.out</file>
             <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.o</file>
             <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.pbi</file>
@@ -38,13 +31,19 @@
             <file>$PROJ_DIR$\Debug\Obj\blink_led.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.__cstat.et</file>
             <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\blink_led.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\blink_led.pbi</file>
+            <file>$TOOLKIT_DIR$\lib\rt6M_tl.a</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 23 27</file>
+                    <file> 16 20</file>
                 </tool>
             </outputs>
         </file>
@@ -53,25 +52,25 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 16</file>
+                    <file> 28</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 15</file>
+                    <file> 30</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 30</file>
+                    <file> 23</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 10 6 12 5 19 13 20 18 11 8 4 7 3</file>
+                    <file> 10 8 26 7 14 29 13 15 4 6 11 5 3</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 19 11 13 6 4 12 7 5 20 18 8 10 3</file>
+                    <file> 14 4 29 8 11 26 5 7 13 15 6 10 3</file>
                 </tool>
             </inputs>
         </file>
@@ -80,7 +79,7 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 26</file>
+                    <file> 19</file>
                 </tool>
             </outputs>
         </file>
@@ -89,25 +88,25 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 24</file>
+                    <file> 17</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 25</file>
+                    <file> 18</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 31</file>
+                    <file> 24</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 12 5 19 13 20 18 21 10 6 11 8 4 7 3 9</file>
+                    <file> 26 7 14 29 13 15 12 10 8 4 6 11 5 3 9</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 18 19 8 21 5 20 10 3 12 7 4 13 9 6 11</file>
+                    <file> 15 14 6 12 7 13 10 3 26 5 11 29 9 8 4</file>
                 </tool>
             </inputs>
         </file>
@@ -116,13 +115,13 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 27</file>
+                    <file> 20</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 29 16 26 24 17 14 28 32</file>
+                    <file> 22 28 19 17 27 31 21 25</file>
                 </tool>
             </inputs>
         </file>
@@ -134,25 +133,25 @@
             <file>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</file>
             <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\MKL46Z\fsl_device_registers.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\..\MKL46Z\fsl_device_registers.h</file>
+            <file>$PROJ_DIR$\Release\Obj\system_MKL46Z4.pbi</file>
+            <file>$PROJ_DIR$\Release\Exe\blink_led.out</file>
             <file>$PROJ_DIR$\Release\Obj\blink_led.o</file>
             <file>$PROJ_DIR$\Release\Obj\system_MKL46Z4.o</file>
             <file>$PROJ_DIR$\Release\Obj\startup_MKL46Z4.o</file>
             <file>$PROJ_DIR$\Release\Obj\blink_led.pbi</file>
-            <file>$PROJ_DIR$\Release\Obj\system_MKL46Z4.pbi</file>
-            <file>$PROJ_DIR$\Release\Exe\blink_led.out</file>
         </outputs>
         <file>
             <name>[ROOT_NODE]</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 15</file>
+                    <file> 11</file>
                 </tool>
             </outputs>
         </file>
@@ -161,11 +160,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 10</file>
+                    <file> 12</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 13</file>
+                    <file> 15</file>
                 </tool>
             </outputs>
         </file>
@@ -174,7 +173,7 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 12</file>
+                    <file> 14</file>
                 </tool>
             </outputs>
         </file>
@@ -183,17 +182,17 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 11</file>
+                    <file> 13</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 14</file>
+                    <file> 10</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 3 5 7 4 8 6 9</file>
+                    <file> 3 9 6 8 5 7 4</file>
                 </tool>
             </inputs>
         </file>

@@ -2060,7 +2060,7 @@
     <group>
         <name>source</name>
         <file>
-            <name>$PROJ_DIR$\..\source\main.c</name>
+            <name>$PROJ_DIR$\..\source\pit_example.c</name>
         </file>
     </group>
     <group>

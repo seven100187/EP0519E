@@ -1,27 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>3719889385</fileChecksum>
+    <fileChecksum>1875397515</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
-            <file>$PROJ_DIR$\Debug\List\Mcg_example.map</file>
-            <file>$PROJ_DIR$\Debug\Obj\startup_MKL46Z4.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.pbi</file>
-            <file>$PROJ_DIR$\Debug\Exe\Mcg_example.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\Mcg_example.pbd</file>
-            <file>$PROJ_DIR$\..\CMSIS\Include\core_cmFunc.h</file>
-            <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4.h</file>
-            <file>$PROJ_DIR$\..\CMSIS\Include\core_cm0plus.h</file>
-            <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4_features.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
             <file>$PROJ_DIR$\..\CMSIS\Include\core_cmInstr.h</file>
             <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\..\source\main.c</file>
             <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.__cstat.et</file>
             <file>$TOOLKIT_DIR$\config\linker\NXP\MKL46Z256xxx4.icf</file>
@@ -30,90 +16,86 @@
             <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
             <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
             <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.h</file>
-            <file>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\Include\core_cm0plus.h</file>
+            <file>$PROJ_DIR$\..\source\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\Mcg_example.pbd</file>
+            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</file>
+            <file>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.h</file>
+            <file>$PROJ_DIR$\..\CMSIS\Include\core_cmFunc.h</file>
+            <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4_features.h</file>
+            <file>$PROJ_DIR$\..\MKL46Z\startup_MKL46Z4.s</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\MKL46Z\MKL46Z4.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\cmsis_iar.h</file>
             <file>$PROJ_DIR$\..\MKL46Z\fsl_device_registers.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl6M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\List\Mcg_example.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\startup_MKL46Z4.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.pbi</file>
+            <file>$PROJ_DIR$\Debug\Exe\Mcg_example.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\system_MKL46Z4.o</file>
+            <file>$PROJ_DIR$\..\source\pit_example.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\pit_example.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\pit_example.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\Mcg_example.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 1</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 19 15 2 5 22 20 21 0</file>
-                </tool>
-            </inputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\..\source\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 15</file>
+                    <file> 2</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 14</file>
+                    <file> 1</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 17</file>
+                    <file> 3</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 8 9 31 24 27 23 26 30 13 12 11 7 28</file>
+                    <file> 24 15 14 10 12 9 11 13 0 25 23 20 19</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 24 9 13 30 27 31 28 26 12 11 8 7 23</file>
+                    <file> 10 15 0 13 12 14 19 11 25 23 24 20 9</file>
                 </tool>
             </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 4 1</file>
-                </tool>
-            </outputs>
         </file>
         <file>
             <name>$PROJ_DIR$\..\MKL46Z\system_MKL46Z4.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 5</file>
+                    <file> 32</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 3</file>
+                    <file> 30</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 18</file>
+                    <file> 4</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 31 24 27 23 26 30 32 8 9 13 12 11 7 28 10</file>
+                    <file> 14 10 12 9 11 13 26 24 15 0 25 23 20 19 21</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 27 7 9 31 23 10 32 24 26 30 8 28 13 12 11</file>
+                    <file> 12 20 15 14 9 21 26 10 11 13 24 19 0 25 23</file>
                 </tool>
             </inputs>
         </file>
@@ -122,9 +104,56 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 2</file>
+                    <file> 29</file>
                 </tool>
             </outputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 31 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\Mcg_example.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 5 34 29 32 8 6 7 27</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\source\pit_example.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 34</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 35</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 24 15 14 10 12 9 11 13 0 25 23 20 19 36 37 38</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 19 11 25 23 12 10 36 15 14 20 13 38 24 0 9 37</file>
+                </tool>
+            </inputs>
         </file>
     </configuration>
     <configuration>
